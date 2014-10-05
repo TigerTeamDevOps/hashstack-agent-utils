@@ -1,0 +1,13 @@
+Source: hashstack-agent-utils
+Maintainer: Jeremi Gosney <jgosney@stricture-group.com> 
+Section: misc
+Priority: important
+Standards-Version: 3.9.2
+Build-Depends: perl, libpar-packer-perl
+
+Package: hashstack-agent-utils
+Architecture: amd64
+Depends: ${shlibs:Depends}, perl, statsprocessor
+Recommends: hashstack-agent
+Description: Standalone utilities for Hashstack agent
+ Standalone utilities for Hashstack agent
